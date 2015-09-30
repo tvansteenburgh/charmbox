@@ -10,4 +10,7 @@ sudo apt-get install amulet -qy
 sudo apt-get install -qy unzip build-essential charm-tools python-dev python-pip python-virtualenv rsync
 sudo pip install bundletester flake8
 
+# Upgrade existing packages
+sudo apt-get upgrade -qy
+
 chown -R ubuntu:ubuntu ${HOME}
